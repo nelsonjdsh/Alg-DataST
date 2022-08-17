@@ -25,7 +25,6 @@ const maxValue = (arr) => {
 };
 
 let values = [23, 34, 444];
-// console.log(maxValue(values));
 
 const characterLength = (word) => {
   let chars = 0;
@@ -38,8 +37,6 @@ const characterLength = (word) => {
   return chars;
 };
 
-// console.log(characterLength('esqueleto'));
-
 function sumArrayValues(arr) {
   let sum = 0;
   for (let value of arr) {
@@ -47,5 +44,3 @@ function sumArrayValues(arr) {
   }
   return sum;
 }
-
-// console.log('sum :>> ', sumArrayValues([23, 45, 65555]));
