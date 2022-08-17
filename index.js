@@ -39,3 +39,13 @@ const characterLength = (word) => {
 };
 
 // console.log(characterLength('esqueleto'));
+
+function sumArrayValues(arr) {
+  let sum = 0;
+  for (let value of arr) {
+    sum += value;
+  }
+  return sum;
+}
+
+// console.log('sum :>> ', sumArrayValues([23, 45, 65555]));
